@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(72, 33, 124);
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.container{
+    width: 35vh;
+    height: 35vh;
+    padding: 2px;
+    background-color: rgb(228, 235, 240);
+    opacity: 3;
+    position: relative;
+    display: flex;
+    top: 260px;
+    border-radius: 5px;
+}
+.container input{
+    padding: 12px;
+    margin: 10px;
+    transform: translateX(5%);
+    transform: translateY(5%);
+    position: relative;
+    top:55px;
+    left: 35px;
+    border-radius: 5px;
+    width: 230px;
+    height: 40px;
+  
+    
+}
+
+#login{
+    font-size: 1.30em;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    text-align: center;
+    position: relative;
+    top: 25px;
+
+}
+hr{
+    position: relative;
+    top: 30px;
+}
+
+
